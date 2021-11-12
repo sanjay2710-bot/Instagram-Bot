@@ -219,7 +219,7 @@ async def followees(bot, message):
         text_file = open(f"{username}'s followees.txt", "w")
         text_file.write(followees)
         text_file.close()
-        await bot.send_document(chat_id=chat_id, document=f"./{username}'s followees.txt", caption=f"{name}'s followees\n\nA Project By [XTZ_Bots](https://t.me/subin_works)")
+        await bot.send_document(chat_id=chat_id, document=f"./{username}'s followees.txt", caption=f"{name}'s followees\n\nA Project By [united_bots](https://t.me/tele_united_bots)")
         os.remove(f"./{username}'s followees.txt")
 
 
