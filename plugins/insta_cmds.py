@@ -334,7 +334,7 @@ async def nfans(bot, message):
         text_file = open(f"{username}'s Non_followers.txt", "w")
         text_file.write(followers)
         text_file.close()
-        await bot.send_document(chat_id=chat_id, document=f"./{username}'s Non_followers.txt", caption=f"{name}'s Non_followers\n\nA Project By [XTZ_Bots](https://t.me/subin_works)")
+        await bot.send_document(chat_id=chat_id, document=f"./{username}'s Non_followers.txt", caption=f"{name}'s Non_followers\n\nA Project By [united_bots](https://t.me/tele_united_bots)")
         os.remove(f"./{username}'s Non_followers.txt")
 
 
